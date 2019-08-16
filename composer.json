@@ -1,0 +1,23 @@
+{
+	"name": "yii2extension/yii2-cron",
+	"type": "yii2-extension",
+	"keywords": ["yii2","cron"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2extension\\cron\\": "src",
+			"yii2extension\\cron\\tests\\": "tests"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"php": ">=5.3.0"
+	}
+}
